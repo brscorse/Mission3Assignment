@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mission #2 Assignment</title>
+    <!--Include CSS formating style from bootstrap and my own css files-->
+    <link href="lib/bootstrap/css/styles.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+    <!--Create an icon in the tab next to the website title-->
+    <link rel="icon" href="https://st2.depositphotos.com/1026531/5294/v/600/depositphotos_52941743-stock-illustration-black-silhouettes-motocross-rider-on.jpg" />
+
+</head>
+
+<body>
+    <h1>Brett Scorse</h1>
+    <link href="css/default.css" rel="stylesheet" />
+
+    <!--Picture and caption here-->
+    <h4>I've enjoyed riding dirt bikes of all kinds from a young age!</h4>
+    <img src="img/Mission2IS413Img.JPG" />
+
+    <h4>What I want to get out of IS 413:</h4>
+        <p>
+            The first few days of every semester are an adjustment, and I'm now realizing the potential of IS 413. 
+            From what I can udnerstand so far, the class is organizaed for students to learn skills consisting of 
+            ASP.NET, C#, Javascript, Visual Community Studio, and website frameworks to create interactive websites applications. 
+            <br />
+            My goals for this class are to walk away with a stronger understanding of web framework types and how to create those using various techniques. 
+            The skills I hope to strengthen from those techniques are Javascript, C#, ASP.NET, jquery, and whatever other important web development tools that exist.
+            <br />
+            I understand that I won't learn everything for web development in this class, but I look forward to gaining a foundation which will assist me in future roles.
+        </p>
+
+    <h4>Top 3 Job Interests After Graduation:</h4>
+    <ol>
+        <li>Data Science</li>
+        <li>Cybersecurity</li>
+        <li>Software Development</li>
+    </ol>
+
+    <!--Form to obtain grade values-->
+    <h4>Grade Calculator</h4>
+    <h5>Input each category grade as a decimal:</h5>
+    <form>
+        <label>Assignments</label>
+        <input type="number" step="0.01" min="0" max="1" id="AssignmentsGrade" />
+        <br />
+
+        <label>Group Project</label>
+        <input type="number" step="0.01" min="0" max="1" id="GroupGrade" />
+        <br />
+
+        <label>Quizzes</label>
+        <input type="number" step="0.01" min="0" max="1" id="QuizzesGrade" />
+        <br />
+
+        <label>Exam</label>
+        <input type="number" step="0.01" min="0" max="1" id="ExamGrade" />
+        <br />
+
+        <label>Intex</label>
+        <input type="number" step="0.01" min="0" max="1" id="IntexGrade" />
+        <br style="padding-bottom: 10px;"/>
+
+        <!--Button and a few style changes-->
+        <input style="text-align: center; padding-top: 10px;" id="btnSend" type="button" value="Calculate Final Grade" />
+
+    </form>
+
+    <script src="lib/bootstrap/js/scripts.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/GradeCalc.js"></script>
+
+
+    <!--<a href="lib/bootstrap/index.html">lib/bootstrap/index.html</a>-->
+
+</body>
+</html>
